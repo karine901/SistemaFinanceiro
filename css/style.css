@@ -1,0 +1,30 @@
+form{
+margin-top: 10%;
+text-align: left;
+
+}
+
+.fa-spotify{
+
+    font-size: 100px;
+    color: aliceblue;
+}
+
+body{
+
+    background-color: 	#93d7ff;
+}
+
+.form-label{
+    color: black;
+    font-size: 15px;
+}
+
+.btn{
+    width: 40%;
+
+}
+
+.button{
+text-align: center;
+}
