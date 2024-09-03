@@ -1,2 +1,2 @@
 # SistemaFinanceiro
-feito em dupla karina e karine
+feito em dupla Karina Barbosa de Almeida e Karine Maria da Silva
