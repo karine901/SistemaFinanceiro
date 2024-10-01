@@ -15,3 +15,12 @@ die('falha na connexao '.$conexao->connect_error);
 
     echo "conectado com sucesso";
 }
+
+if ($conexao->query($sql)) {
+    echo "<script>alert('Inserido com sucesso!' ; history.back ())</script>";
+}else {
+    echo "Falha na conexão com banco de dados";
+}
+ 
+ 
+?>

@@ -1,7 +1,7 @@
 <?php
 include 'conexao.php'; 
 
-//receber os dadsos do formulário
+//receber os dados do formulário
 $nomeCompleto=$_POST['nome'];
 $email=$_POST['email'];
 $cargo=$_POST['cargo'];
