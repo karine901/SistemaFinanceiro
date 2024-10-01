@@ -11,12 +11,11 @@ text-align: left;
 }
 
 body{
-
-    background-color: 	#93d7ff;
+    background: linear-gradient(135deg, #72EDF2, #5151E5 100%);
 }
 
 .form-label{
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 15px;
 }
 
@@ -27,4 +26,77 @@ body{
 
 .button{
 text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #72EDF2 10%, #5151E5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ 
+.form-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+ 
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+ 
+.input-group {
+    margin-bottom: 20px;
+}
+ 
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+ 
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+ 
+.input-group input:focus {
+    border-color: #5151E5;
+    outline: none;
+}
+ 
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #5151E5;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
