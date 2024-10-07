@@ -4,7 +4,7 @@
 $servidor = 'localhost';
 $usuario = 'root';
 $senha ='root';
-$bd= 'db_contabilidade';
+$bd = 'db_contabilidade';
 
 $conexao = new mysqli($servidor,$usuario,$senha,$bd);
 
@@ -16,11 +16,6 @@ die('falha na connexao '.$conexao->connect_error);
     echo "conectado com sucesso";
 }
 
-if ($conexao->query($sql)) {
-    echo "<script>alert('Inserido com sucesso!' ; history.back ())</script>";
-}else {
-    echo "Falha na conexão com banco de dados";
-}
- 
+
  
 ?>
