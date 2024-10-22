@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Lançamento</title>
+    <link rel="stylesheet" href="css/stell.css">
+ 
+</head>
+<body>
+
+    <div class="container">
+        <h1>Cadastro de Lançamento</h1>
+        <form>
+
+            <div class="form-group">
+                <label for="data_lancamento">Data do Lançamento:</label>
+                <input type="date" id="data_lancamento" name="data_lancamento" required>
+            </div>
+            
+            <!-- Descrição do Lançamento -->
+            <div class="form-group">
+                <label for="ds_lancamento">Descrição:</label>
+                <input type="text" id="ds_lancamento" name="ds_lancamento" placeholder="Digite a descrição do lançamento" required>
+            </div>
+
+            <!-- Seleção do Usuário -->
+            <div class="form-group">
+                <label for="fk_usuario">Usuário:</label>
+                <select id="fk_usuario" name="fk_usuario" required>
+                    <option value="">Selecione o usuário</option>
+                    <option value="1">Usuário 1</option>
+                    <option value="2">Usuário 2</option>
+                </select>
+            </div>
+ 
+            <div class="form-group">
+                <label for="fk_categoria">Categoria:</label>
+                <select id="fk_categoria" name="fk_categoria" required>
+                    <option value="">Selecione a categoria</option>
+                    <option value="1">Categoria 1</option>
+                    <option value="2">Categoria 2</option>
+                </select>
+            </div>
+ 
+            <!-- Botão de Envio -->
+            <div class="form-group">
+                <input type="submit" value="Cadastrar Lançamento">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

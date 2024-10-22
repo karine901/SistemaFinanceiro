@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Categoria</title>
+    <link rel="stylesheet" href="css/stell.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Categoria</h1>
+        <form action="php/insert.usuario copy.php" method="post">
+
+            <div class="form-group">
+                <label for="nome">Nome da Categoria:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite o nome da categoria" required>
+            </div>
+ 
+            <!-- Tipo -->
+            <div class="form-group">
+                <label for="tipo">Tipo:</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="">Selecione o tipo</option>
+                    <option value="1">Ativo</option>
+                    <option value="0">Inativo</option>
+                </select>
+            </div>
+ 
+            <!-- Descrição -->
+            <div class="form-group">
+                <label for="descricao">Descrição:</label>
+                <input type="text" id="descricao" name="descricao" placeholder="Digite a descrição" required>
+            </div>
+ 
+            <!-- Botão de Envio -->
+            <div class="form-group">
+                <button type="submit" class="btn" id="a">Cadastrar Categoria</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
