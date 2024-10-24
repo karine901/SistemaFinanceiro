@@ -8,7 +8,7 @@ $descricao=$_POST['descricao'];
 
 
 
-$sql="INSERT INTO tb_categoria values (null,'$nomeCompleto','$tipo','$descricao')";
+$sql="INSERT INTO tb_categoria values (null,'$nomeCompleto',$tipo,'$descricao')";
 
 if ($conexao->query($sql)) {
     echo "<script>alert('Inserido com sucesso!'); history.back();</script>";
