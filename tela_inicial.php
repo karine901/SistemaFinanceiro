@@ -59,6 +59,15 @@
     </div>
  
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+DlMNPR9xGyY4iZPtuD5O5qb60bbl" crossorigin="anonymous"></script>
+
+<div style="">
+  <?php
+  if(isset($_SESSION['id'])) {
+    $id = $_SESSION['id'];
+    echo "Olá $id";
+  } 
+  
+  ?>
 </body>
 </html>
  

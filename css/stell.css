@@ -5,10 +5,10 @@
 }
  
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #72EDF2 10%, #5151E5 100%);;
+    background-image: url(https://img.freepik.com/fotos-premium/um-carro-esportivo-bugatti-veyron-roxo-e-preto-esta-em-uma-estrada-com-montanhas-ao-fundo_7023-7078.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
- 
 .container {
     max-width: 600px;
     margin: 50px auto;
